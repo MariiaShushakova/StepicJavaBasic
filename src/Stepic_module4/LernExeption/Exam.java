@@ -11,7 +11,7 @@ public class Exam {
     }
 
     public void passTest(){
-        System.out.println("Test passed!");
+        System.out.println("Main passed!");
         this.isTestPassed = true;
     }
     public void passHW(){

@@ -13,6 +13,7 @@ public class task2 {
     public static String getCallerClassAndMethodName() {
         Exception ex = new Exception();
         StackTraceElement[] el =  ex.getStackTrace();// массив из StackTrace elements
+
         if (el.length > 2) {
             return el[2].getClassName() + "#" + el[2].getMethodName();
             //el[0] -вызван сам getStackTrace, el[1] - имя метода (свое имя), el[2] - имя метода кто вызвал [1]
