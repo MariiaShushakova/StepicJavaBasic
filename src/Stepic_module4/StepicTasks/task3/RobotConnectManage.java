@@ -6,7 +6,5 @@ public class RobotConnectManage implements RobotConnectionManager {
     public RobotConnect getConnection() {
         System.out.println("No connection"); // for debug
         throw new RobotConnectionException("Exc doesn't connect");
-
-
     }
 }
