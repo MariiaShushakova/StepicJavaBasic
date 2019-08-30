@@ -1,6 +1,6 @@
 package LernJava.Interface;
 
-public abstract class AbstractAnimal implements Speakable {
+public abstract class AbstractAnimal implements Speakable{
 
 
 }
