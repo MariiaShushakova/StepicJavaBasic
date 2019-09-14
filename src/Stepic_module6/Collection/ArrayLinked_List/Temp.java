@@ -1,6 +1,4 @@
-package temp;
-
-import java.util.Objects;
+package Stepic_module6.Collection.ArrayLinked_List;
 
 public class Temp {
     public static void main(String[] args) {

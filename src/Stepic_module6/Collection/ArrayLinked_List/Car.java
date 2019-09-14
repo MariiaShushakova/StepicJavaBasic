@@ -1,4 +1,4 @@
-package temp;
+package Stepic_module6.Collection.ArrayLinked_List;
 
 import java.util.Arrays;
 import java.util.LinkedList;
